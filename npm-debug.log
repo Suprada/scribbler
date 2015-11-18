@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'run-script', 'grunt' ]
+2 info using npm@2.14.1
+3 info using node@v0.12.5
+4 verbose run-script [ 'pregrunt', 'grunt', 'postgrunt' ]
+5 info pregrunt scribbler@0.0.1
+6 info grunt scribbler@0.0.1
+7 verbose unsafe-perm in lifecycle true
+8 info scribbler@0.0.1 Failed to exec grunt script
+9 verbose stack Error: scribbler@0.0.1 grunt: `grunt`
+9 verbose stack spawn ENOENT
+9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1015:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+10 verbose pkgid scribbler@0.0.1
+11 verbose cwd /Users/suprada/Documents/Projects/Scribbler
+12 error Darwin 15.0.0
+13 error argv "node" "/usr/local/bin/npm" "run-script" "grunt"
+14 error node v0.12.5
+15 error npm  v2.14.1
+16 error file sh
+17 error code ELIFECYCLE
+18 error errno ENOENT
+19 error syscall spawn
+20 error scribbler@0.0.1 grunt: `grunt`
+20 error spawn ENOENT
+21 error Failed at the scribbler@0.0.1 grunt script 'grunt'.
+21 error This is most likely a problem with the scribbler package,
+21 error not with npm itself.
+21 error Tell the author that this fails on your system:
+21 error     grunt
+21 error You can get their info via:
+21 error     npm owner ls scribbler
+21 error There is likely additional logging output above.
+22 verbose exit [ 1, true ]
